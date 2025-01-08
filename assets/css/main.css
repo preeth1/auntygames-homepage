@@ -120,7 +120,20 @@ input, select, textarea {
     src: url('../balsamiqfonts/BalsamiqSans-Bold.ttf');
 }
 
+@keyframes move-diagonal {
+  0% {
+    background-position: 0 0; /* Start at the top-left */
+  }
+  100% {
+    background-position: 100px 100px; /* Move diagonally down-right */
+  }
+}
+
 	body, input, select, textarea {
+		background-image: url('../../images/tiled_background.png');
+		background-repeat: repeat; /* Ensures the image tiles */
+		animation: move-diagonal 20s linear infinite; /* Adjust speed and smoothness */
+
 		color: #585858;
 		font-family: "Balsamiq", Helvetica, sans-serif;
 		font-size: 16pt;
@@ -2599,7 +2612,7 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				width: 100%;
-				border-radius: 4px;
+				border-radius: 80px;
 				overflow: hidden;
 			}
 
