@@ -114,10 +114,15 @@ input, select, textarea {
 		}
 
 /* Type */
+	
+@font-face {
+	font-family: 'Balsamiq';
+    src: url('../balsamiqfonts/BalsamiqSans-Bold.ttf');
+}
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Balsamiq", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -2582,7 +2587,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
+			width: calc(60% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
