@@ -2592,6 +2592,10 @@ input, select, textarea {
 		flex-wrap: wrap;
 		postiion: relative;
 		margin: -2.5em 0 0 -2.5em;
+
+		/* Flexbox for centering */
+		justify-content: center; /* Centers horizontally */
+		align-items: center;    /* Centers vertically */
 	}
 
 		.tiles article {
@@ -2848,6 +2852,11 @@ input, select, textarea {
 
 	#header {
 		padding: 8em 0 0.1em 0 ;
+
+		/* Flexbox for centering */
+		display: flex;
+		justify-content: center; /* Centers horizontally */
+		align-items: center;    /* Centers vertically */
 	}
 
 		#header .logo {
