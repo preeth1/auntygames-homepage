@@ -2978,6 +2978,13 @@ input, select, textarea {
 
 		}
 
+.text-box-white-bg {
+	background-color: #ffffffbb;
+	border-radius: 20px;
+	box-shadow: #dddddd 0 0 10px;
+	padding: 20px 20px 20px 40px !important;
+}
+
 /* Wrapper */
 
 	#wrapper > * > .inner {
