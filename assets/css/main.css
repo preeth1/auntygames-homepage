@@ -2900,6 +2900,22 @@ input, select, textarea {
 				font-size: 3em;
 			}
 
+			@media screen and (max-width: 736px) {
+
+				#header .logo .symbol img {
+					display: block;
+					width: 4em;
+					height: 4em;
+					border-radius: 8px;
+				}
+
+				#header .logo .title {
+					margin: 0 0 0 10px;
+					font-size: 1.3em;
+				}
+
+			}
+
 		.header-inner {
 			display: flex;
 			justify-content: space-between;
@@ -2920,9 +2936,21 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 2em 0 0.1em 0 ;
 			}
 
+			.header-inner {
+				flex-direction: column;
+				padding: 0;
+
+				.icons:first-child {
+					margin: 2em 0 0 0;
+				}
+
+				.icons:not(:first-child) {
+					margin: 1em 0 0 0;
+				}
+			}
 
 		}
 
@@ -2940,6 +2968,7 @@ input, select, textarea {
 	#main .inner header iframe {
 		border-radius: 15px;
 		box-shadow: #dddddd 3px 3px 4px;
+		margin: 0 0 3em 0;
 	}
 
 		@media screen and (max-width: 736px) {
