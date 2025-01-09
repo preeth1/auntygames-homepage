@@ -2968,7 +2968,6 @@ input, select, textarea {
 	#main .inner header iframe {
 		border-radius: 15px;
 		box-shadow: #dddddd 3px 3px 4px;
-		margin: 0 0 3em 0;
 	}
 
 		@media screen and (max-width: 736px) {
